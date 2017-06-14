@@ -115,9 +115,9 @@ def add_carthage_search_path
     p.kind_of?(Xcodeproj::Project::Object::PBXFrameworksBuildPhase) 
   } or return
   phase.add_file_reference(project.new_file("$(PROJECT_DIR)/Carthage/Build/iOS/RxSwift.framework"))
-  # for config in target.build_configuration_list.build_configurations
-  #   config.build_settings["FRAMEWORK_SEARCH_PATHS"] << "$(PROJECT_DIR)/Carthage/Build/iOS"
-  # end
+  for config in target.build_configuration_list.build_configurations
+    config.build_settings["FRAMEWORK_SEARCH_PATHS"] << "$(PROJECT_DIR)/Carthage/Build/iOS"
+  end
   project.save
 end
 
