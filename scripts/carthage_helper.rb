@@ -107,7 +107,7 @@ end
 def add_carthage_search_path
   project = Xcodeproj::Project.open("#{PACKAGE_NAME}.xcodeproj") or return
   target = project.targets.find { |t| t.name == PACKAGE_NAME } or return
-  project.targets.each do |target|
+  project.targets.reverse_each do |target|
     target.remove_from_project() unless target.name == PACKAGE_NAME
   end
   target = project.targets.first or return
