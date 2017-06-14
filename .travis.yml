@@ -32,6 +32,10 @@ script:
     -enableCodeCoverage YES
     CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
 
+branches:
+  except:
+    - carthage
+
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J 'ReactorKit'
 
