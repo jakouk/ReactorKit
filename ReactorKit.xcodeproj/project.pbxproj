@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		716344710A592A7553446332 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E78A39101AC3072B897642 /* RxSwift.framework */; };
 		OBJ_302 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* _RX.m */; };
 		OBJ_303 /* _RXDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* _RXDelegateProxy.m */; };
 		OBJ_304 /* _RXKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* _RXKVOObserver.m */; };
@@ -281,6 +282,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8E78A39101AC3072B897642 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "$(PROJECT_DIR)/Carthage/Build/iOS/RxSwift.framework"; sourceTree = "<group>"; };
 		OBJ_10 /* ActionSubject.swift */ = {isa = PBXFileReference; path = ActionSubject.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Generate.swift */ = {isa = PBXFileReference; path = Generate.swift; sourceTree = "<group>"; };
 		OBJ_101 /* GroupBy.swift */ = {isa = PBXFileReference; path = GroupBy.swift; sourceTree = "<group>"; };
@@ -568,6 +570,7 @@
 				OBJ_590 /* RxSwift.framework in Frameworks */,
 				OBJ_592 /* RxBlocking.framework in Frameworks */,
 				OBJ_593 /* RxCocoa.framework in Frameworks */,
+				716344710A592A7553446332 /* RxSwift.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -941,6 +944,7 @@
 				OBJ_24 /* scripts */,
 				OBJ_25 /* Dependencies */,
 				OBJ_289 /* Products */,
+				A8E78A39101AC3072B897642 /* RxSwift.framework */,
 			);
 			path = "";
 			sourceTree = "<group>";
@@ -1287,7 +1291,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1315,7 +1318,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
