@@ -28,3 +28,10 @@ publish: doc
 		git commit -am "Generate documentation"  && \
 		git push origin gh-pages
 	rm -rf tmp-reactorkit
+
+project:
+	ruby ./scripts/carthage_helper.rb prepare_xcconfig
+	swift package generate-xcodeproj --xcconfig-overrides Config.xcconfig
+	rm Config.xcconfig
+	ruby ./scripts/carthage_helper.rb remove_rxcocoaruntime
+	# ruby ./scripts/carthage_helper.rb add_carthage_search_path

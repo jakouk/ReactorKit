@@ -113,4 +113,7 @@ when "modify_info"
 
 when "remove_rxcocoaruntime"
   remove_rxcocoaruntime()
+
+when "add_carthage_search_path"
+  add_carthage_search_path()
 end
