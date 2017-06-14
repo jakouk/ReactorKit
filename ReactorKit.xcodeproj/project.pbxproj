@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42567742599E75B02DBFA563 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F177964ABDDD15E46650DD8 /* RxSwift.framework */; };
+		B845FD6C3CD780DBFDB8BFB3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C14B36EB5CD72C87097F188 /* RxSwift.framework */; };
 		OBJ_302 /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* _RX.m */; };
 		OBJ_303 /* _RXDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* _RXDelegateProxy.m */; };
 		OBJ_304 /* _RXKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* _RXKVOObserver.m */; };
 		OBJ_305 /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* _RXObjCRuntime.m */; };
-		OBJ_307 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* RxSwift.framework */; };
+		OBJ_307 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_315 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* BlockingObservable+Operators.swift */; };
 		OBJ_316 /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* BlockingObservable.swift */; };
 		OBJ_317 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ObservableConvertibleType+Blocking.swift */; };
@@ -21,7 +21,7 @@
 		OBJ_320 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* RecursiveLock.swift */; };
 		OBJ_321 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Resources.swift */; };
 		OBJ_322 /* RunLoopLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* RunLoopLock.swift */; };
-		OBJ_324 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* RxSwift.framework */; };
+		OBJ_324 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_330 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* AddRef.swift */; };
 		OBJ_331 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Amb.swift */; };
 		OBJ_332 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* AnonymousDisposable.swift */; };
@@ -261,28 +261,28 @@
 		OBJ_572 /* URLSession+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_286 /* URLSession+Rx.swift */; };
 		OBJ_573 /* Variable+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_287 /* Variable+Driver.swift */; };
 		OBJ_574 /* Variable+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_288 /* Variable+SharedSequence.swift */; };
-		OBJ_576 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* RxSwift.framework */; };
+		OBJ_576 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_577 /* RxCocoaRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_290 /* RxCocoaRuntime.framework */; };
 		OBJ_585 /* ActionSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ActionSubject.swift */; };
 		OBJ_586 /* AssociatedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AssociatedObjectStore.swift */; };
 		OBJ_587 /* Reactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Reactor.swift */; };
 		OBJ_588 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* View.swift */; };
-		OBJ_590 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* RxSwift.framework */; };
-		OBJ_592 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_291 /* RxBlocking.framework */; };
-		OBJ_593 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_293 /* RxCocoa.framework */; };
+		OBJ_590 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		OBJ_592 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		OBJ_593 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_603 /* ActionSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ActionSubjectTests.swift */; };
 		OBJ_604 /* AssociatedObjectStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* AssociatedObjectStoreTests.swift */; };
 		OBJ_605 /* ReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ReactorTests.swift */; };
 		OBJ_606 /* ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ViewTests.swift */; };
-		OBJ_608 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_292 /* RxSwift.framework */; };
+		OBJ_608 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_609 /* RxCocoaRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_290 /* RxCocoaRuntime.framework */; };
-		OBJ_610 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_291 /* RxBlocking.framework */; };
-		OBJ_611 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_293 /* RxCocoa.framework */; };
+		OBJ_610 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		OBJ_611 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		OBJ_612 /* ReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_294 /* ReactorKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F177964ABDDD15E46650DD8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		3C14B36EB5CD72C87097F188 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		OBJ_10 /* ActionSubject.swift */ = {isa = PBXFileReference; path = ActionSubject.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Generate.swift */ = {isa = PBXFileReference; path = Generate.swift; sourceTree = "<group>"; };
 		OBJ_101 /* GroupBy.swift */ = {isa = PBXFileReference; path = GroupBy.swift; sourceTree = "<group>"; };
@@ -487,9 +487,6 @@
 		OBJ_288 /* Variable+SharedSequence.swift */ = {isa = PBXFileReference; path = "Variable+SharedSequence.swift"; sourceTree = "<group>"; };
 		OBJ_29 /* _RXDelegateProxy.m */ = {isa = PBXFileReference; path = _RXDelegateProxy.m; sourceTree = "<group>"; };
 		OBJ_290 /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_291 /* RxBlocking.framework */ = {isa = PBXFileReference; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_292 /* RxSwift.framework */ = {isa = PBXFileReference; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_293 /* RxCocoa.framework */ = {isa = PBXFileReference; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_294 /* ReactorKit.framework */ = {isa = PBXFileReference; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_295 /* ReactorKitTests.xctest */ = {isa = PBXFileReference; path = ReactorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_30 /* _RXKVOObserver.m */ = {isa = PBXFileReference; path = _RXKVOObserver.m; sourceTree = "<group>"; };
@@ -567,10 +564,10 @@
 		OBJ_589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
-				OBJ_590 /* RxSwift.framework in Frameworks */,
-				OBJ_592 /* RxBlocking.framework in Frameworks */,
-				OBJ_593 /* RxCocoa.framework in Frameworks */,
-				42567742599E75B02DBFA563 /* RxSwift.framework in Frameworks */,
+				OBJ_590 /* BuildFile in Frameworks */,
+				OBJ_592 /* BuildFile in Frameworks */,
+				OBJ_593 /* BuildFile in Frameworks */,
+				B845FD6C3CD780DBFDB8BFB3 /* RxSwift.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -736,9 +733,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_290 /* RxCocoaRuntime.framework */,
-				OBJ_291 /* RxBlocking.framework */,
-				OBJ_292 /* RxSwift.framework */,
-				OBJ_293 /* RxCocoa.framework */,
 				OBJ_294 /* ReactorKit.framework */,
 				OBJ_295 /* ReactorKitTests.xctest */,
 			);
@@ -944,7 +938,7 @@
 				OBJ_24 /* scripts */,
 				OBJ_25 /* Dependencies */,
 				OBJ_289 /* Products */,
-				0F177964ABDDD15E46650DD8 /* RxSwift.framework */,
+				3C14B36EB5CD72C87097F188 /* RxSwift.framework */,
 			);
 			path = "";
 			sourceTree = "<group>";
