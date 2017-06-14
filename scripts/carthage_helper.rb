@@ -104,6 +104,15 @@ def remove_rxcocoaruntime
   project.save
 end
 
+def add_carthage_search_path
+  project = Xcodeproj::Project.open("#{PACKAGE_NAME}.xcodeproj") or return
+  target = project.targets.find { |t| t.name == PACKAGE_NAME } or return
+  for config in target.build_configuration_list.build_configurations
+    config.build_settings["FRAMEWORK_SEARCH_PATHS"] << "$(PROJECT_DIR)/Carthage/Build/iOS"
+  end
+  project.save
+end
+
 case ARGV.first
 when "prepare_xcconfig"
   prepare_xcconfig()
