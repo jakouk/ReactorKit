@@ -562,21 +562,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_306 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-				OBJ_307 /* RxSwift.framework in Frameworks */,
-			);
-		};
 		OBJ_323 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 				OBJ_324 /* RxSwift.framework in Frameworks */,
-			);
-		};
-		OBJ_476 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
 			);
 		};
 		OBJ_575 /* Frameworks */ = {
@@ -592,16 +581,6 @@
 				OBJ_590 /* RxSwift.framework in Frameworks */,
 				OBJ_592 /* RxBlocking.framework in Frameworks */,
 				OBJ_593 /* RxCocoa.framework in Frameworks */,
-			);
-		};
-		OBJ_607 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-				OBJ_608 /* RxSwift.framework in Frameworks */,
-				OBJ_609 /* RxCocoaRuntime.framework in Frameworks */,
-				OBJ_610 /* RxBlocking.framework in Frameworks */,
-				OBJ_611 /* RxCocoa.framework in Frameworks */,
-				OBJ_612 /* ReactorKit.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -1003,40 +982,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_296 /* RxCocoaRuntime */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_297 /* Build configuration list for PBXNativeTarget "RxCocoaRuntime" */;
-			buildPhases = (
-				OBJ_300 /* ShellScript */,
-				OBJ_301 /* Sources */,
-				OBJ_306 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_308 /* PBXTargetDependency */,
-			);
-			name = RxCocoaRuntime;
-			productName = RxCocoaRuntime;
-			productReference = OBJ_290 /* RxCocoaRuntime.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		OBJ_309 /* RxSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_326 /* Build configuration list for PBXNativeTarget "RxSwift" */;
-			buildPhases = (
-				OBJ_329 /* Sources */,
-				OBJ_476 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RxSwift;
-			productName = RxSwift;
-			productReference = OBJ_292 /* RxSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		OBJ_310 /* RxBlocking */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_311 /* Build configuration list for PBXNativeTarget "RxBlocking" */;
@@ -1092,27 +1037,6 @@
 			productReference = OBJ_294 /* ReactorKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_598 /* ReactorKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_599 /* Build configuration list for PBXNativeTarget "ReactorKitTests" */;
-			buildPhases = (
-				OBJ_602 /* Sources */,
-				OBJ_607 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_613 /* PBXTargetDependency */,
-				OBJ_614 /* PBXTargetDependency */,
-				OBJ_615 /* PBXTargetDependency */,
-				OBJ_616 /* PBXTargetDependency */,
-				OBJ_617 /* PBXTargetDependency */,
-			);
-			name = ReactorKitTests;
-			productName = ReactorKitTests;
-			productReference = OBJ_295 /* ReactorKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1132,36 +1056,14 @@
 			productRefGroup = OBJ_289 /* Products */;
 			projectDirPath = .;
 			targets = (
-				OBJ_296 /* RxCocoaRuntime */,
 				OBJ_310 /* RxBlocking */,
-				OBJ_309 /* RxSwift */,
 				OBJ_477 /* RxCocoa */,
 				OBJ_580 /* ReactorKit */,
-				OBJ_598 /* ReactorKitTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		OBJ_300 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			files = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${PROJECT_TEMP_DIR}/SymlinkLibs\"\nln -sf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${PROJECT_TEMP_DIR}/SymlinkLibs/lib${EXECUTABLE_NAME}.dylib\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_301 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_302 /* _RX.m in Sources */,
-				OBJ_303 /* _RXDelegateProxy.m in Sources */,
-				OBJ_304 /* _RXKVOObserver.m in Sources */,
-				OBJ_305 /* _RXObjCRuntime.m in Sources */,
-			);
-		};
 		OBJ_314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -1173,157 +1075,6 @@
 				OBJ_320 /* RecursiveLock.swift in Sources */,
 				OBJ_321 /* Resources.swift in Sources */,
 				OBJ_322 /* RunLoopLock.swift in Sources */,
-			);
-		};
-		OBJ_329 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_330 /* AddRef.swift in Sources */,
-				OBJ_331 /* Amb.swift in Sources */,
-				OBJ_332 /* AnonymousDisposable.swift in Sources */,
-				OBJ_333 /* AnonymousInvocable.swift in Sources */,
-				OBJ_334 /* AnonymousObserver.swift in Sources */,
-				OBJ_335 /* AnyObserver.swift in Sources */,
-				OBJ_336 /* AsMaybe.swift in Sources */,
-				OBJ_337 /* AsSingle.swift in Sources */,
-				OBJ_338 /* AsyncLock.swift in Sources */,
-				OBJ_339 /* AsyncSubject.swift in Sources */,
-				OBJ_340 /* Bag+Rx.swift in Sources */,
-				OBJ_341 /* Bag.swift in Sources */,
-				OBJ_342 /* BehaviorSubject.swift in Sources */,
-				OBJ_343 /* BinaryDisposable.swift in Sources */,
-				OBJ_344 /* BooleanDisposable.swift in Sources */,
-				OBJ_345 /* Buffer.swift in Sources */,
-				OBJ_346 /* Cancelable.swift in Sources */,
-				OBJ_347 /* Catch.swift in Sources */,
-				OBJ_348 /* CombineLatest+arity.swift in Sources */,
-				OBJ_349 /* CombineLatest+Collection.swift in Sources */,
-				OBJ_350 /* CombineLatest.swift in Sources */,
-				OBJ_351 /* CompositeDisposable.swift in Sources */,
-				OBJ_352 /* Concat.swift in Sources */,
-				OBJ_353 /* ConcurrentDispatchQueueScheduler.swift in Sources */,
-				OBJ_354 /* ConcurrentMainScheduler.swift in Sources */,
-				OBJ_355 /* ConnectableObservable.swift in Sources */,
-				OBJ_356 /* ConnectableObservableType.swift in Sources */,
-				OBJ_357 /* Create.swift in Sources */,
-				OBJ_358 /* CurrentThreadScheduler.swift in Sources */,
-				OBJ_359 /* Debounce.swift in Sources */,
-				OBJ_360 /* Debug.swift in Sources */,
-				OBJ_361 /* DefaultIfEmpty.swift in Sources */,
-				OBJ_362 /* Deferred.swift in Sources */,
-				OBJ_363 /* Delay.swift in Sources */,
-				OBJ_364 /* DelaySubscription.swift in Sources */,
-				OBJ_365 /* Dematerialize.swift in Sources */,
-				OBJ_366 /* Deprecated.swift in Sources */,
-				OBJ_367 /* DispatchQueue+Extensions.swift in Sources */,
-				OBJ_368 /* DispatchQueueConfiguration.swift in Sources */,
-				OBJ_369 /* Disposable.swift in Sources */,
-				OBJ_370 /* Disposables.swift in Sources */,
-				OBJ_371 /* DisposeBag.swift in Sources */,
-				OBJ_372 /* DisposeBase.swift in Sources */,
-				OBJ_373 /* DistinctUntilChanged.swift in Sources */,
-				OBJ_374 /* Do.swift in Sources */,
-				OBJ_375 /* ElementAt.swift in Sources */,
-				OBJ_376 /* Empty.swift in Sources */,
-				OBJ_377 /* Error.swift in Sources */,
-				OBJ_378 /* Errors.swift in Sources */,
-				OBJ_379 /* Event.swift in Sources */,
-				OBJ_380 /* Filter.swift in Sources */,
-				OBJ_381 /* Generate.swift in Sources */,
-				OBJ_382 /* GroupBy.swift in Sources */,
-				OBJ_383 /* GroupedObservable.swift in Sources */,
-				OBJ_384 /* HistoricalScheduler.swift in Sources */,
-				OBJ_385 /* HistoricalSchedulerTimeConverter.swift in Sources */,
-				OBJ_386 /* ImmediateScheduler.swift in Sources */,
-				OBJ_387 /* ImmediateSchedulerType.swift in Sources */,
-				OBJ_388 /* InfiniteSequence.swift in Sources */,
-				OBJ_389 /* InvocableScheduledItem.swift in Sources */,
-				OBJ_390 /* InvocableType.swift in Sources */,
-				OBJ_391 /* Just.swift in Sources */,
-				OBJ_392 /* Lock.swift in Sources */,
-				OBJ_393 /* LockOwnerType.swift in Sources */,
-				OBJ_394 /* MainScheduler.swift in Sources */,
-				OBJ_395 /* Map.swift in Sources */,
-				OBJ_396 /* Materialize.swift in Sources */,
-				OBJ_397 /* Merge.swift in Sources */,
-				OBJ_398 /* Multicast.swift in Sources */,
-				OBJ_399 /* Never.swift in Sources */,
-				OBJ_400 /* NopDisposable.swift in Sources */,
-				OBJ_401 /* Observable.swift in Sources */,
-				OBJ_402 /* ObservableConvertibleType.swift in Sources */,
-				OBJ_403 /* ObservableType+Extensions.swift in Sources */,
-				OBJ_404 /* ObservableType.swift in Sources */,
-				OBJ_405 /* ObserveOn.swift in Sources */,
-				OBJ_406 /* ObserverBase.swift in Sources */,
-				OBJ_407 /* ObserverType.swift in Sources */,
-				OBJ_408 /* OperationQueueScheduler.swift in Sources */,
-				OBJ_409 /* Optional.swift in Sources */,
-				OBJ_410 /* Platform.Darwin.swift in Sources */,
-				OBJ_411 /* Platform.Linux.swift in Sources */,
-				OBJ_412 /* PrimitiveSequence+Zip+arity.swift in Sources */,
-				OBJ_413 /* PrimitiveSequence.swift in Sources */,
-				OBJ_414 /* PriorityQueue.swift in Sources */,
-				OBJ_415 /* Producer.swift in Sources */,
-				OBJ_416 /* PublishSubject.swift in Sources */,
-				OBJ_417 /* Queue.swift in Sources */,
-				OBJ_418 /* Range.swift in Sources */,
-				OBJ_419 /* Reactive.swift in Sources */,
-				OBJ_420 /* RecursiveLock.swift in Sources */,
-				OBJ_421 /* RecursiveScheduler.swift in Sources */,
-				OBJ_422 /* Reduce.swift in Sources */,
-				OBJ_423 /* RefCountDisposable.swift in Sources */,
-				OBJ_424 /* Repeat.swift in Sources */,
-				OBJ_425 /* ReplaySubject.swift in Sources */,
-				OBJ_426 /* RetryWhen.swift in Sources */,
-				OBJ_427 /* Rx.swift in Sources */,
-				OBJ_428 /* RxMutableBox.swift in Sources */,
-				OBJ_429 /* Sample.swift in Sources */,
-				OBJ_430 /* Scan.swift in Sources */,
-				OBJ_431 /* ScheduledDisposable.swift in Sources */,
-				OBJ_432 /* ScheduledItem.swift in Sources */,
-				OBJ_433 /* ScheduledItemType.swift in Sources */,
-				OBJ_434 /* SchedulerServices+Emulation.swift in Sources */,
-				OBJ_435 /* SchedulerType.swift in Sources */,
-				OBJ_436 /* Sequence.swift in Sources */,
-				OBJ_437 /* SerialDispatchQueueScheduler.swift in Sources */,
-				OBJ_438 /* SerialDisposable.swift in Sources */,
-				OBJ_439 /* ShareReplay1.swift in Sources */,
-				OBJ_440 /* ShareReplay1WhileConnected.swift in Sources */,
-				OBJ_441 /* SingleAssignmentDisposable.swift in Sources */,
-				OBJ_442 /* SingleAsync.swift in Sources */,
-				OBJ_443 /* Sink.swift in Sources */,
-				OBJ_444 /* Skip.swift in Sources */,
-				OBJ_445 /* SkipUntil.swift in Sources */,
-				OBJ_446 /* SkipWhile.swift in Sources */,
-				OBJ_447 /* StartWith.swift in Sources */,
-				OBJ_448 /* String+Rx.swift in Sources */,
-				OBJ_449 /* SubjectType.swift in Sources */,
-				OBJ_450 /* SubscribeOn.swift in Sources */,
-				OBJ_451 /* SubscriptionDisposable.swift in Sources */,
-				OBJ_452 /* Switch.swift in Sources */,
-				OBJ_453 /* SwitchIfEmpty.swift in Sources */,
-				OBJ_454 /* SynchronizedDisposeType.swift in Sources */,
-				OBJ_455 /* SynchronizedOnType.swift in Sources */,
-				OBJ_456 /* SynchronizedSubscribeType.swift in Sources */,
-				OBJ_457 /* SynchronizedUnsubscribeType.swift in Sources */,
-				OBJ_458 /* TailRecursiveSink.swift in Sources */,
-				OBJ_459 /* Take.swift in Sources */,
-				OBJ_460 /* TakeLast.swift in Sources */,
-				OBJ_461 /* TakeUntil.swift in Sources */,
-				OBJ_462 /* TakeWhile.swift in Sources */,
-				OBJ_463 /* Throttle.swift in Sources */,
-				OBJ_464 /* Timeout.swift in Sources */,
-				OBJ_465 /* Timer.swift in Sources */,
-				OBJ_466 /* ToArray.swift in Sources */,
-				OBJ_467 /* Using.swift in Sources */,
-				OBJ_468 /* Variable.swift in Sources */,
-				OBJ_469 /* VirtualTimeConverterType.swift in Sources */,
-				OBJ_470 /* VirtualTimeScheduler.swift in Sources */,
-				OBJ_471 /* Window.swift in Sources */,
-				OBJ_472 /* WithLatestFrom.swift in Sources */,
-				OBJ_473 /* Zip+arity.swift in Sources */,
-				OBJ_474 /* Zip+Collection.swift in Sources */,
-				OBJ_475 /* Zip.swift in Sources */,
 			);
 		};
 		OBJ_481 /* Sources */ = {
@@ -1433,41 +1184,23 @@
 				OBJ_588 /* View.swift in Sources */,
 			);
 		};
-		OBJ_602 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_603 /* ActionSubjectTests.swift in Sources */,
-				OBJ_604 /* AssociatedObjectStoreTests.swift in Sources */,
-				OBJ_605 /* ReactorTests.swift in Sources */,
-				OBJ_606 /* ViewTests.swift in Sources */,
-			);
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_308 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_309 /* RxSwift */;
-		};
 		OBJ_325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_309 /* RxSwift */;
 		};
 		OBJ_578 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_309 /* RxSwift */;
 		};
 		OBJ_579 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_296 /* RxCocoaRuntime */;
 		};
 		OBJ_594 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_309 /* RxSwift */;
 		};
 		OBJ_595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_296 /* RxCocoaRuntime */;
 		};
 		OBJ_596 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1476,26 +1209,6 @@
 		OBJ_597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_477 /* RxCocoa */;
-		};
-		OBJ_613 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_309 /* RxSwift */;
-		};
-		OBJ_614 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_296 /* RxCocoaRuntime */;
-		};
-		OBJ_615 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_310 /* RxBlocking */;
-		};
-		OBJ_616 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_477 /* RxCocoa */;
-		};
-		OBJ_617 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_580 /* ReactorKit */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1583,6 +1296,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactorKit.xcodeproj/RxBlocking_Info.plist;
@@ -1605,6 +1319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactorKit.xcodeproj/RxBlocking_Info.plist;
@@ -1746,7 +1461,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1774,7 +1488,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1852,29 +1565,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_297 /* Build configuration list for PBXNativeTarget "RxCocoaRuntime" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_298 /* Debug */,
-				OBJ_299 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		OBJ_311 /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_312 /* Debug */,
 				OBJ_313 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_326 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_327 /* Debug */,
-				OBJ_328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1893,15 +1588,6 @@
 			buildConfigurations = (
 				OBJ_582 /* Debug */,
 				OBJ_583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_599 /* Build configuration list for PBXNativeTarget "ReactorKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_600 /* Debug */,
-				OBJ_601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
